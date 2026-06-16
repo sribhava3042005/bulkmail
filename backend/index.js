@@ -7,7 +7,7 @@ const app = express()
 app.use (cors())
 app.use (express.json())
 
-mongoose.connect("mongodb+srv://YOUR_NEW_USERNAME:YOUR_NEW_PASSWORD@cluster0.y11kodt.mongodb.net/passkey?appName=Cluster0").then(function(){
+mongoose.connect("mongodb+srv://sribhava:anu3042005@cluster0.y11kodt.mongodb.net/passkey?appName=Cluster0").then(function(){
   console.log("connected to DB")
 })
 
@@ -23,8 +23,8 @@ const transporter = nodemailer.createTransport({
     service:"gmail",
     auth: {
         // TODO: replace 'user' and 'pass' values from <https://forwardemail.net>
-        user: "yourgmail@gmail.com",
-        pass: "your_app_password",
+        user: "sribavadharani201@gmail.com",
+        pass: "kqxx cpho ppfj hjvx",
     },
 });
 app.post("/sendmail",function(req,res){
